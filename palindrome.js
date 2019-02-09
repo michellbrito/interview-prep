@@ -16,6 +16,6 @@ let checkPalindrome = function (word) {
     };
 };
 
-checkPalindrome("noon"); // should console.log true noon = noon
-checkPalindrome("horse"); // should console.log false horse != esroh
-checkPalindrome("racecar"); // should consoe.log true racecar = racecar
+checkPalindrome("noon"); // should return true because noon === noon
+checkPalindrome("horse"); // should return false because  horse != esroh
+checkPalindrome("racecar"); // should return true because racecar === racecar
