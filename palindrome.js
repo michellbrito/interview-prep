@@ -3,7 +3,7 @@ function that takes in a single word as a string and returns true
 if it’ s a palindrome and false otherwise(a palindrome is spelled the same way forwards and backwards). */
 
 
-let checkPalindrom = function (word) {
+let checkPalindrome = function (word) {
 
     // splits the given word into an array, reverses the word, and then finally joins the word together 
     reverseWord = word.split("").reverse().join("");
