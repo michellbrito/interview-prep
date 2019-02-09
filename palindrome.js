@@ -14,7 +14,7 @@ let checkPalindrom = function (word) {
     } else {
         console.log(false);
     }
-}
+};
 
 checkPalindrom("noon"); // should console.log true noon = noon
 checkPalindrom("horse"); // should console.log false horse != esroh
