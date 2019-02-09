@@ -10,12 +10,12 @@ let checkPalindrome = function (word) {
 
     // checks to see if the user word is equal to the reverse word and if it is console.log true if not console.log false
     if (word === reverseWord) {
-        console.log(true);
+        return true;
     } else {
-        console.log(false);
-    }
+        return false;
+    };
 };
 
-checkPalindrom("noon"); // should console.log true noon = noon
-checkPalindrom("horse"); // should console.log false horse != esroh
-checkPalindrom("racecar"); // should consoe.log true racecar = racecar
+checkPalindrome("noon"); // should console.log true noon = noon
+checkPalindrome("horse"); // should console.log false horse != esroh
+checkPalindrome("racecar"); // should consoe.log true racecar = racecar
