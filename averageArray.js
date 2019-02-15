@@ -9,7 +9,7 @@ let averageArray = function (numArray) {
     for (let i = 0; i < numArray.length; i++) {
         // adds the numbers in the array to sum
         sum = sum + numArray[i];
-    }
+    };
     // calculates the average by doing sum / numbers of array
     console.log(sum / numArray.length);
 };
