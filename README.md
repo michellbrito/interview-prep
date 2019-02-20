@@ -1,2 +1,2 @@
 # interviewQuestions
-my solutions to interviewQuestions (leetcode,hackerrank)
+My solutions to interviewQuestions (leetcode,hackerrank)
