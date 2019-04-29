@@ -1,6 +1,6 @@
 # interviewQuestions
 My solutions to interviewQuestions (leetcode,hackerrank)
-* [Sort array by partity](https://github.com/michellbrito/interviewQuestions/blob/master/Sort%20Array%20By%20Partiy.py) 
+* [Sort array by partity](https://github.com/michellbrito/interviewQuestions/blob/master/Sort%20Array%20By%20Partiy.py) ```Python```
 * [Average array](https://github.com/michellbrito/interviewQuestions/blob/master/averageArray.js) 
 * [Convert string to number](https://github.com/michellbrito/interviewQuestions/blob/master/convertStringToNumber.js) 
 * [Detect captial use](https://github.com/michellbrito/interviewQuestions/blob/master/detectCaptialUse.py) 
