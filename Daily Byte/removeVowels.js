@@ -2,7 +2,7 @@
 Note: In this problem y is not considered a vowel. */
 
 function removeVowels(s) {
-  var noVowels = "";
+  let noVowels = "";
 
   for (let i = 0; i < s.length; i++) {
     if (s[i] != "a" && s[i] != "e" && s[i] != "i" && s[i] != "o" && s[i] != "u") {
