@@ -13,7 +13,7 @@ function rearrangeElements(nums) {
 
   while (counter > 0) {
     nums.push(0);
-    counter = counter - 1;
+    counter--
   }
 
   return nums;
