@@ -30,3 +30,4 @@ function hammingDistance(x, y) {
 }
 
 console.log(hammingDistance(2, 4)); // 2 = 0 0 1 0 , 4 = 0 1 0 0 -> therefore the number of positions in which the bits differ is 2.
+console.log(hammingDistance(2, 5)); // 2 = 0 0 1 0 , 5 = 0 1 0 1 -> therefore the number of positions in which the bits differ is 3.
