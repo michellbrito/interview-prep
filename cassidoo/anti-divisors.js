@@ -1,4 +1,5 @@
-/* Given a positive integer n, return all of its anti-divisors. Anti-divisors are numbers that do not divide a number by the largest possible margin (1 is not an anti-divisor of any number) */
+/* Given a positive integer n, return all of its anti-divisors. Anti-divisors are numbers that do 
+not divide a number by the largest possible margin (1 is not an anti-divisor of any number) */
 
 function antidivisor(n){
   const results = [];
@@ -10,9 +11,9 @@ function antidivisor(n){
 
   for (let k = 2; k <= n; k++) {
     const nmodk = n % k;
-    const evenAntiDivisor = nmodk === k / 2;
-    const oddAntiDivisor = nmodk === (k - 1) / 2 || nmodk === (k + 1) / 2;
-    if (evenAntiDivisor || oddAntiDivisor) {
+    const isEvenAntiDivisor = nmodk === k / 2;
+    const isOddAntiDivisor = nmodk === (k - 1) / 2 || nmodk === (k + 1) / 2;
+    if (isEvenAntiDivisor || isOddAntiDivisor) {
       results.push(k);
     }
   }
@@ -21,7 +22,6 @@ function antidivisor(n){
 }
 
 console.log(antidivisor(1)); // -> []
-console.log(antidivisor(2)); // -> []
 console.log(antidivisor(3)); // -> [2]
 console.log(antidivisor(5)); // -> [2, 3]
 console.log(antidivisor(10)); // -> [3, 4, 7]
